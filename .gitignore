@@ -7,9 +7,9 @@ __pycache__/
 # Dataset & Images (Không đưa lên GitHub)
 DeepPCB/
 dataset/
-visualized/
 *.jpg
 *.png
+!visualized/**
 
 # Training outputs & Model weights
 runs/
