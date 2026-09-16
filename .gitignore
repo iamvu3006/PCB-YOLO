@@ -1,0 +1,16 @@
+# Python & Virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Dataset & Images (Không đưa lên GitHub)
+DeepPCB/
+dataset/
+visualized/
+*.jpg
+*.png
+
+# Training outputs & Model weights
+runs/
+*.pt
