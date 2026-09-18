@@ -10,7 +10,10 @@ dataset/
 *.jpg
 *.png
 !visualized/**
+!runs/**
 
 # Training outputs & Model weights
-runs/
 *.pt
+!runs/**/weights/best.pt
+!runs/**/weights/last.pt
+
